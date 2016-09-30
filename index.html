@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="ISO 8859-1">
 	<title>Flexbox form yeahhh</title>
+	<link rel="stylesheet" href="build/css/main.css">
 </head>
 <body>
 
+<div class="deployFormContainer">
+	<form action="#" class="deployForm">
+		<div class="deplouyformsection">
+			<button class="FCPrimaryBtnP btndeployform">Autorizar Github</button>
+			<button class="FCPrimaryBtnP btndeployform">Remover Autorização</button>
+		</div>
+		<div class="deplouyformsection">
+			<ul class="depoyinfosfilds">
+				<li>
+					<label for="">E-mail:</label>
+					<input type="email" required>
+				</li>
+				<li>
+					<label for="">Ativo:</label>
+					<input type="checkbox" required>
+				</li>
+				<li>
+					<label for="">Repositório:</label>
+					<select name="" id="">
+						<option value="#">Novinho</option>
+						<option value="#">Mini</option>
+						<option value="#">Teste3</option>
+					</select>
+				</li>
+				<li>
+					<label for="">Branch:</label>
+					<select name="" id="">
+						<option value="#">master</option>
+						<option value="#">branch1</option>
+					</select>
+				</li>
+			</ul>
+		</div>
+		<div class="deplouyformsection">
+			<h4 class="txtcenter">Pastas a sincronizar</h4>
+			<ul class="deploufolders">
+				<li><input type="checkbox"><label for="">htm</label></li>
+				<li><input type="checkbox"><label for="">images</label></li>
+				<li><input type="checkbox"><label for="">prod</label></li>
+			</ul>
+		</div>
+		<div class="deplouyformsection">
+			<h4 class="txtcenter">Iniciar sincronização</h4>
+			<div class="deployactions">
+				<div class="deploystatusbtns">
+					<button class="FCPrimaryBtnP">Github > Loja</button>
+					<button class="FCPrimaryBtnP">Loja > Github</button>
+				</div>
+				<div class="FChelpIco">
+					<a name="Icone126" onclick="MostraAjuda(10,310,410,7)" class="NotPrint" style="cursor:help"><img src="build/images/Duvida7.gif" border="0" width="16" height="16" align="absmiddle" title="Clique aqui para ver ajuda contextual"></a>
+				</div>
+			</div>
+		</div>
+		<div class="deplouyformsection">
+			<button class="savebtn">Gravar</button>
+		</div>
+	</form>
+</div>
 
 </body>
 </html>

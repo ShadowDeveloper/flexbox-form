@@ -1,21 +1,81 @@
-body
-	background red
-	+between(101px,1024px)
-		background green
-	+between(1024px,1366px)
-		background hsl(134, 50%, 50%)
-	+between(1367px,1500px)
-		background rgba(255,255,255,.5)
+ul
+  margin 0
+  padding 0
+  li
+    list-style none
 
-div
-	display flex
-	flex-flow row wrap
-	justify-content center
-	transition all .5s ease
+.deployFormContainer
+  display flex
+  justify-content center
+  
+.txtcenter
+  text-align center
 
-span
-	margin-top 10px
-	margin-right 20px
-	margin-bottom 10px
-	margin-left 20px
-	filter blur( 5px )
+.deployForm
+  display flex
+  flex-direction column
+  min-width 400px
+
+.deplouyformsection
+  margin 10px 0
+
+h4
+  display block
+  width 100%
+
+.FCPrimaryBtnP
+  border-radius 2px
+  background #f5f5f5
+  border 1px solid #dcdcdc
+  color #444
+  cursor pointer
+  font-family arial,sans-serif
+  font-size 11px
+  font-weight bold
+  line-height 27px
+  margin 0
+  padding 0 8px
+
+.savebtn
+  @extend .FCPrimaryBtnP
+  background #2FBE6C
+  color #fff
+  min-width 150px
+  font-size .9em
+  
+.deploufolders
+  display flex
+  flex-flow column wrap
+  li
+    margin-bottom 5px
+    
+.depoyinfosfilds
+  li
+    width 100%
+    margin 10px 0
+    label
+      margin-right 5px
+      display inline-block
+      width 100px
+      text-align right
+    input, select
+      display inline-block
+      padding 3px 5px
+    
+.deployactions
+  display flex
+  flex-flow row wrap
+  align-items center
+
+.deploystatusbtns
+  width 100%
+  button
+    width 200px
+    margin 10px 0
+
+.FChelpIco
+  text-align right
+  width 95%
+    
+      
+  
