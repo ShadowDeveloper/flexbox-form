@@ -1,0 +1,30 @@
+{
+  "name": "formapp",
+  "version": "1.0.0",
+  "description": "Flexbox form experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShadowDeveloper/flexbox-form.git"
+  },
+  "author": "Rodrigo Souza (shadowDev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShadowDeveloper/flexbox-form/issues"
+  },
+  "homepage": "https://github.com/ShadowDeveloper/flexbox-form#readme",
+  "dependencies": {
+    "autoprefixer": "^6.5.0",
+    "babel-core": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "cssnano": "^3.7.5",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-stylus": "^2.5.0",
+    "poststylus": "^0.2.3"
+  }
+}
